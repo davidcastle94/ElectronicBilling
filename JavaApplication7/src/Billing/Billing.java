@@ -5,9 +5,10 @@
  */
 package Billing;
 
+import Model.Customer;
 /**
  *
- * @author Equipo
+ * @DSLC
  */
 public class Billing {
 
@@ -16,6 +17,9 @@ public class Billing {
      */
     public static void main(String[] args) {
         
+        Customer c1 = new Customer("David ", 801180584);  
+        
+        System.out.print(c1.toString());
         System.out.print("Hello work- how are you");
         
         
